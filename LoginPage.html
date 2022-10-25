@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="./Images/images/Hotel.webp">
+        <link rel="stylesheet" href="loginsheet.css">
+        <div class="headtag">
+            <h2>Dallas Resort Login Page</h2><hr>
+            <title>Login Page</title>
+        </div>
+    </head>
+    <body>
+            <p>
+                Please login with your valid User ID and Password.
+            </p>
+
+            <div class="formtag">
+                <form id="loginForm" onsubmit="return handle_form_submission()">
+
+                    <div class="user">
+                    <label for="userid">User ID</label>
+                    <input type="text" id="userId" placeholder="Email ID/Phone Number">
+                    </div>
+        
+                    <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="Password" placeholder="Your Password">
+                    </div>
+
+                    <button type="button" value="submit">Submit</button>
+                    </form>
+            </div>
+    </body>
+</html>
