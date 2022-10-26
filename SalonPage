@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Saloon Page</title>
+</head>
+<body>
+
+    <div class="nav_container">
+            <nav>
+                <div class="img">
+                    <img src="./Images/Vector.png">
+                </div>
+                <div class="logo">
+                    Salon
+                </div>
+                <div class="navbar">
+                    <a class="Active" href="#booknow">Book Now</a>
+                    <a href="#Contact">Contact Us</a>
+                    <a href="#services">Services</a>
+                    <a href="#About Us">About Us</a>
+                    <a href="#home">Home</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="heading">
+        <h6>Welcome to Choppers</h6>
+        <p>
+            <h4>Best Hair Salon For A<br>Professional Look</h4>
+            Choppers offers high performance<br>customized facials to provide you<br>with visible results.<br>
+        </p>
+
+        <div class="b1">
+            <button type="submit" value="submit">Book Now</button>
+        </div>
+
+        <div class="b2">
+            <button type="submit" value="submit">Services</button>
+        </div>
+    </div>
+
+    <div class="displayimg">
+        <img src="./Images/image 2.png" width="520px" height="520px">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
